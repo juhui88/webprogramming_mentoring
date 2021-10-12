@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="naver.css">
+    <title>네이버 로그인 페이지 만들기</title>
+    <script src="naver.js">
+    </script>
+</head>
+<body>
+    <div class = "container">
+
+        <div class = "a">
+            a
+        </div>
+
+        <div class = "b">
+            <select class = "lang">
+                <option value = "1" selected>한국어</option>
+                <option value = "2">English</option>
+                <option value = "3">中文(简体)</option>
+                <option value = "4">中文(台灣)</option>
+            </select>
+            <p><img class = "logo" src = "이미지/logo.png"></p>
+        </div>
+
+        <div class = "c">
+            c
+            
+        </div>
+
+        <div class = "d" onmouseover = "border(this,'green')"onmouseout = "border(this,'white')">
+            <h3> "완전한행복" 작가의 말
+            <button onclick="change()">눌러!</button>
+            </h3>
+            <hr>
+            우리는 누구나 <span>행복</span>을 추구한다. 그것은 인간의 본능이며 삶의 목적이 되기도 한다.<br/>
+            다만 늘 기억해야한다. 우리에겐 <span>행복할 권리</span>와 <span>타인의 행복에 대한 책임</span>이 함께 있다는 것을.
+
+            
+        </div>
+
+        <div class = "e">
+            <div class = "login_wrap">
+                
+                <div class = "menu_wrap">
+                    <div class = "menu_item" id = "on">
+                        <img src="이미지/로그인.jpg" class = "menu_image">
+                        <a href = "naver.html" class = "menu_id_on">
+                            ID 로그인
+                        </a>
+                    </div>
+
+                    <div class = "menu_item" id= "off1">
+                        <img src="이미지/일회용번호.jpg" class = "menu_image">
+                        <a href = "일회용번호.html" class = "menu_ones">
+                            일회용번호
+                        </a>
+                    </div>
+                    
+                    <div class = "menu_item" id="off2">
+                        <img src="이미지/QR.jpg" class = "menu_image">
+                        <a href = "QR코드.html" class = "menu_QR">
+                            QR 코드
+                        </a>
+                    </div>
+                </div>
+
+                <div class="panel_inner_warp">
+                    <div class = "ID_PW">
+                        <div class="ID" onmouseover = "border(this,'green')" onmouseout="border(this,'rgb(196, 196, 196)')">
+                            <img src="이미지/id_before.jpg" class = "idpw_image">
+                            <input type="text" class = "input_text" placeholder = "아이디" onfocus="this.placeholder=''" onblur="this.placeholder='아이디'">
+                        </div>
+                        <div class="PW"onmouseover = "border(this,'green')" onmouseout="border(this,'rgb(196, 196, 196)')">
+                            <img src="이미지/pw_before.jpg" class = "idpw_image">
+                            <input type="text" class = "input_text" placeholder = "비밀번호" onfocus="this.placeholder=''" onblur="this.placeholder='비밀번호'">
+                        </div>
+                        
+                    </div>
+
+                    <div class = "check_things">
+                        <div class = "keep_check">
+                            <input type="checkbox">
+                            로그인 상태 유지
+                        </div>
+                        <div class = "ip_check">
+                            <input type="checkbox">
+                            IP보안
+                        </div>
+                    </div>
+                    
+                    <div class = "btn_login_wrap">
+                        <button type="button" class="btn_login" onclick="alert('로그인되었습니다.')">로그인</button>
+                    </div>
+                </div>
+            </div>
+            <ul class="find_wrap">
+                <li class ="find">비밀번호 찾기</li>
+                <li class ="find" id="middle">아이디찾기</li>
+                <li class ="find">회원가입</li>
+            </ul>
+        </div>
+
+        <div class = "f">
+            f
+            
+        </div>
+
+        <div class = "g">
+            g
+            
+        </div>
+
+        <div class = "h">
+            h
+            
+        </div>
+
+        <div class = "i">
+            i
+            
+        </div>
+        
+    </div>
+</body>
+</html>
